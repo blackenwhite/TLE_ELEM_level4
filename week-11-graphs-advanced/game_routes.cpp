@@ -82,6 +82,7 @@ ll dfs(ll start) {
             ans %= mod;
         }
     }
+    visited[start] = true;
     return dp[start] = ans;
 }
 
